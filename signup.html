@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gabung di Platform Streaming Kami</title>
+    <link rel="stylesheet" href="signup.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="home-link">
+        <a href="index.html">Home</a>
+    </div>
+
+    <div class="video-background">
+        <video autoplay muted loop>
+            <source src="dinamis B&W.mp4" type="video/mp4">
+        </video>
+    </div>
+    <div class="container">
+        <div class="form-container">
+            <h1>THEFUFA</h1>
+            <p>Daftar dulu iciboss</p>
+            <form id="signupForm">
+                <div class="inputbox">
+                    <input type="text" id="username" required>
+                    <span>Username</span>
+                </div>
+                <div class="inputbox">
+                    <input type="email" id="email" required>
+                    <span>Email</span>
+                </div>
+                <div class="inputbox">
+                    <input type="password" id="password" required>
+                    <span>Kata Sandi</span>
+                </div>
+                <button type="submit">Daftar Sekarang</button>
+                <p>Sudah punya akun? <a href="login.html">login</a></p>
+            </form>
+            <p id="message"></p>
+        </div>
+    </div>
+    <script src="signup.js"></script>
+</body>
+</html>
